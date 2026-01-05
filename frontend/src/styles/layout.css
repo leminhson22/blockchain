@@ -1,0 +1,59 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: var(--secondary);
+  color: white;
+}
+
+.navbar .subtitle {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.navbar-right {
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+/* ===== ROLE ===== */
+.role-selector {
+  margin: 20px 0;
+}
+
+.role-badge {
+  margin-left: 8px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+/* ===== PAGE LAYOUT ===== */
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* ===== CARD ===== */
+.invoice-card {
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.invoice-info p {
+  margin-top: 8px;
+}
+
+/* ===== BUTTON GROUP ===== */
+.action-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}

@@ -1,0 +1,6 @@
+{
+  "networkName": "Localhost (Ganache / Hardhat)",
+  "chainId": 1337,
+  "currencySymbol": "ETH",
+  "rpcHint": "http://127.0.0.1:7545"
+}
